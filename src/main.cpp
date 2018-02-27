@@ -2022,7 +2022,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         if (fTestNet)
         {
-            block.nTime    = 1516472177;
+            block.nTime    = 1519719358;  //2018.02.27 PM1720 edited y.H.Kim
             block.nNonce   = 2086899143;
         }
 
