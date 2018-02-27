@@ -833,8 +833,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 0.24 * 24 * 60 * 60; // DoobaeCoin: 0.35 days
-static const int64 nTargetSpacing = 10; // DoobaeCoin: 15 seconds
+static const int64 nTargetTimespan = 0.35 * 24 * 60 * 60; // BitCoin: 0.35 days
+static const int64 nTargetSpacing = 15; // DoobaeCoin: 15 seconds
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 // Thanks: Balthazar for suggesting the following fix
